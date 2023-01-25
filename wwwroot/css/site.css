@@ -1,0 +1,161 @@
+html {
+  font-size: 14px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* new css */
+body {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 4%;
+  margin-top:2%;
+}
+
+.logotype {
+  width: 30%;
+  border: 2px solid rgb(46, 45, 46);
+}
+.datumruta {
+  width: 23%;
+  text-align: center;
+}
+
+.datumruta p{
+  background-color: antiquewhite;
+  padding: 2%;
+  border: 2px solid rgb(46, 45, 46); 
+}
+
+.two_container {
+  background-color: blanchedalmond;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgb(46, 45, 46);
+}
+
+.leftmenu {
+background-color: rgb(185, 189, 187);
+width: 32%;
+padding: 2%;
+}
+
+.nav-item {
+  background-color: antiquewhite;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 50px;
+  margin-bottom: 3%;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: rgb(46, 45, 46);
+  text-align: center;
+}
+.nav-link:hover {
+  background-color:rgb(46, 45, 46);
+  border-radius: 50px;
+  color: antiquewhite;
+}
+
+.rightcontent {
+background-color: antiquewhite;
+width: 68%;
+padding: 2%;
+}
+
+.topheader {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(46, 45, 46);
+}
+
+.darkmode {
+  background-color: darkgrey;
+  color: wheat;
+}
+
+footer {
+  background-color: antiquewhite;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.8em;
+  border: 2px solid rgb(46, 45, 46);
+}
+footer p {
+  padding: 2%;
+  margin-bottom: 0;
+}
+
+.toggle input[type='checkbox'] {
+  display: none;
+}
+
+.toggle label {
+  background-color: antiquewhite;
+  border: 2px solid rgb(209, 196, 179);
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: all ease-in-out 0.3s;
+  width: 60px;
+  height: 31px;
+}
+.toggle label::after {
+  background-color: #555;
+  border-radius: 50%;
+  content: ' ';
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  transition: all ease-in-out 0.3s;
+  width: 22px;
+  height: 22px;
+}
+
+.toggle input[type='checkbox']:checked~label {
+  background-color: rgb(115, 115, 115);
+  border-color: rgb(197, 195, 195);
+}
+
+.toggle input[type='checkbox']:checked~label::after {
+  background-color: rgb(54, 54, 54);
+  transform: translateX(30px);
+}
+
+body {
+  background-color: #f5f7fa;
+}
+
+body.dark-theme {
+  background-color: #333;
+}
+
+img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+.datumruta p {
+  font-size: 0.6em;
+}
+}
+
