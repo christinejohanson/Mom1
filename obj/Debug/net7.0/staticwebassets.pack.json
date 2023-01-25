@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/christinejohanson/Projects/Mom1/wwwroot/img/.DS_Store",
+      "PackagePath": "staticwebassets/img/.DS_Store"
+    },
+    {
+      "Id": "/Users/christinejohanson/Projects/Mom1/wwwroot/img/annasvan.jpg",
+      "PackagePath": "staticwebassets/img/annasvan.jpg"
+    },
+    {
+      "Id": "/Users/christinejohanson/Projects/Mom1/wwwroot/img/logotype3.jpg",
+      "PackagePath": "staticwebassets/img/logotype3.jpg"
+    },
+    {
       "Id": "/Users/christinejohanson/Projects/Mom1/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

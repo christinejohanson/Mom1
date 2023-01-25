@@ -57,18 +57,21 @@ padding: 2%;
   background-color: antiquewhite;
   width: 80%;
   margin: 0 auto;
-  border-radius: 50px;
-  margin-bottom: 3%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 5%;
 }
 
 .nav-link {
   font-weight: bold;
   color: rgb(46, 45, 46);
-  text-align: center;
 }
 .nav-link:hover {
   background-color:rgb(46, 45, 46);
-  border-radius: 50px;
+  border-radius: 10px;
   color: antiquewhite;
 }
 
@@ -78,15 +81,23 @@ width: 68%;
 padding: 2%;
 }
 
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 2%;
+}
+
 .topheader {
   display: flex;
   justify-content: space-between;
   color: rgb(46, 45, 46);
-}
-
-.darkmode {
-  background-color: darkgrey;
-  color: wheat;
 }
 
 footer {
@@ -109,13 +120,13 @@ footer p {
 .toggle label {
   background-color: antiquewhite;
   border: 2px solid rgb(209, 196, 179);
-  border-radius: 50px;
+  border-radius: 20px;
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: all ease-in-out 0.3s;
   width: 60px;
-  height: 31px;
+  height: 27px;
 }
 .toggle label::after {
   background-color: #555;
@@ -138,7 +149,7 @@ footer p {
 
 .toggle input[type='checkbox']:checked~label::after {
   background-color: rgb(54, 54, 54);
-  transform: translateX(30px);
+  transform: translateX(32px);
 }
 
 body {
